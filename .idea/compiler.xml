@@ -6,8 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lab_building" />
+        <module name="lab_common" />
+        <module name="lab_common_web" />
+        <module name="lab_service_api_user" />
+        <module name="lab_service_system_admin_consumer" />
+        <module name="lab_service_system_admin_provider" />
+        <module name="lab_service_system_api_admin" />
+        <module name="lab_service_user_consumer" />
+        <module name="lab_service_user_provider" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lab_service_user_common" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>

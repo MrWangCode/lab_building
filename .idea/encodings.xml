@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_api_interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_api_interface/lab_service_api_user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_api_interface/lab_service_system_api_admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_common_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_service_system_admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_service_system_admin/lab_service_system_admin_consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_service_system_admin/lab_service_system_admin_provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_service_user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_service_user/lab_service_user_consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_service_user/lab_service_user_provider" charset="UTF-8" />
+  </component>
+</project>
