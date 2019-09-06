@@ -5,11 +5,30 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
+import java.util.Map;
 
 @Mapper
 public interface LabAdminMapper {
-    public Admin getLabAdminById(@Param("aid")Integer aid)throws Exception;
+    /**
+     * 分页查询Data
+     */
+    public List<Admin> pageList(@Param("start") Integer start,
+                                @Param("size") Integer size,String aname);
+    /**
+     * 分页查询Count
+     */
+    public int pageListCount(@Param("offset") int offset,
+                             @Param("pagesize") int pagesize);
 
-    public List<>
+    /**
+     * 新增
+     */
+    public int insert(@Param("admin") Admin admin);
+
+
+    /**
+     * 更新
+     */
+    public int update(@Param("admin") Admin admin);
 
 }

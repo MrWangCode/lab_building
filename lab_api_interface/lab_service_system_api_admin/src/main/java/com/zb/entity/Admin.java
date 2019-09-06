@@ -26,12 +26,12 @@ public class Admin implements Serializable {
     private String apwd;
 
     /**
-     *
+     *权限
      */
     private int powers;
 
     /**
-     *
+     *状态
      */
     private int state;
 
