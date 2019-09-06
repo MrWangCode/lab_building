@@ -24,11 +24,6 @@ public class RpcTokenServiceImpl implements RpcAdminService {
     @Override
     public Admin findUserLogin(String aname, String apwd) {
         Map<String,Object>params=new HashMap<String, Object>();
-        params.put("a","a");
-        params.put("a","a");
-        params.put("a","a"); params.put("a","a");
-
-
         return null;
     }
 
